@@ -37,10 +37,6 @@ h1, h2 {
     font-size: 25px;
 }
 
-#nav-list a{
-    /* text-decoration: none; */
-    /*  */
-}
 
 /* welcome-section */
 #welcome-section{
@@ -220,14 +216,24 @@ img {
     }
 
     #navbar{
-        text-align: center;
-    }
+         }
 }
 
 @media (max-width: 558px){
+
+    #navbar {
+        padding: 0;
+    }
+
     .nav-link {
         font-size: 20px;
+        padding: 10px;
     }
+
+    #welcome-section {
+        margin-top: 59.6px;
+    }
+
     #projects-container {
         grid-template-columns: auto;
     }
@@ -239,5 +245,7 @@ img {
     #contact-para {
         font-size: 1.5rem;
     }
+
+    
 
 }
