@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    word-wrap: break-word;
+
 }
 ul {
     padding-inline-start: 0;
@@ -76,7 +76,7 @@ h1, h2 {
     align-items: center;
     padding: 55px;
     background-color: yellow;
-    /* height: 150vh; */
+    text-align:center;
 }
 
 #projects-heading {
@@ -132,6 +132,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 #contact-heading{
@@ -196,9 +197,6 @@ img {
         width: 80%;
     }
 
-    .contact-links{
-        margin: 0.5rem;
-    }
 }
 
 @media (max-width: 708px) {
@@ -227,12 +225,19 @@ img {
 }
 
 @media (max-width: 558px){
+    .nav-link {
+        font-size: 20px;
+    }
     #projects-container {
         grid-template-columns: auto;
     }
-    /* img {
-        
-        height: 30vh;
 
-    } */
+    #contact-heading {
+        font-size: 2.5rem;
+    }
+
+    #contact-para {
+        font-size: 1.5rem;
+    }
+
 }
