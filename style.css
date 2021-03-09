@@ -5,7 +5,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-
+    
 }
 ul {
     padding-inline-start: 0;
@@ -78,16 +78,9 @@ h1, h2 {
 #projects-heading {
     font-size: 3rem;
     font-weight: 400;
+    border-bottom: 0.2rem solid black;
+    margin: 10px 10px;
 }
-
-hr {
-    width: 750px;
-    height: 3px;
-    background-color: black;
-    border-color: black;
-    margin-top: 1px;
-}
-
 
 #projects-container{
     margin-top: 15px;
@@ -136,8 +129,8 @@ img {
 }
 
 #contact-para {
-    line-height: 0;
     font-size: 2rem;
+    padding: 2.5px;
     font-weight: 200;
 }
 
@@ -146,13 +139,11 @@ img {
     text-align: center;
 }
 
-
 .contact-links {
     display: inline;
     margin: 1rem;
     font-size: 2rem;
 }
-
 
 .social-icons {
     color: white;
@@ -167,10 +158,6 @@ img {
 }
 
 @media (max-width: 895px){
-    hr {
-        width: 90%;
-    }
-
     #projects-container {
         grid-template-columns: auto auto;
     }
@@ -189,17 +176,6 @@ img {
     #projects-heading{
         font-size: 2.4rem;
     }
-    hr {
-        width: 80%;
-    }
-
-}
-
-@media (max-width: 708px) {
-    
-    hr{
-        width: 85%;
-    }
 }
 
 @media (max-width: 645px) {
@@ -215,8 +191,6 @@ img {
         font-size: 2rem;
     }
 
-    #navbar{
-         }
 }
 
 @media (max-width: 558px){
@@ -245,7 +219,4 @@ img {
     #contact-para {
         font-size: 1.5rem;
     }
-
-    
-
 }
