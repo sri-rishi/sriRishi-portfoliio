@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
+:root{
+    --primary-white: white;
+    --dark-gray: #222831;
+    --dark-red: #aa2b1d;
+    --dark-blue: #383e56;
+    --light-dark-red: #c4401fab;
+}
 
 body{
     margin: 0;
@@ -12,20 +19,22 @@ ul {
 }
 a {
     text-decoration: none;
-    color: white;
+    color: var(--primary-white);
 }
 h1, h2 {
     font-family: 'Raleway', sans-serif;
     margin-block-start: 0;
     margin-block-end: 0;
+    color: var(--primary-white);
 }
+
 /* navbar */
 #navbar{
     top: 0;
     position : fixed;
     width: 100%;
     text-align: right;
-    background-color: black;
+    background-color: var(--dark-red);
     padding: 10px 0;
     z-index: 10;
     box-shadow: 0 2px 5px rgb(12, 12, 12);
@@ -37,6 +46,9 @@ h1, h2 {
     font-size: 25px;
 }
 
+#navbar a:hover {
+    color: var(--dark-gray)
+}
 
 /* welcome-section */
 #welcome-section{
@@ -46,7 +58,7 @@ h1, h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color:cadetblue;
+    background-color: var(--dark-gray);
 }
 
 #info-div {
@@ -61,6 +73,7 @@ h1, h2 {
 #info{
     font-size:2rem;
     font-weight: 200;
+    color: var(--dark-red);
 }
 
 /* project-section */
@@ -70,14 +83,14 @@ h1, h2 {
     justify-content: center;
     align-items: center;
     padding: 55px;
-    background-color: yellow;
+    background-color: var(--dark-blue);
     text-align:center;
 }
 
 #projects-heading {
     font-size: 3rem;
     font-weight: 400;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid var(--primary-white);
     margin: 10px 10px;
 }
 
@@ -90,18 +103,23 @@ h1, h2 {
 }
 
 .project-div {
-    background-color: black;
+    background-color: var(--dark-gray);
     margin: 3rem;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+
+
 #show-projects {
-    background-color: black;
+    background-color:  var(--dark-gray);
     font-size: 25px;
     padding: 10px;
     border: none;
     outline: none;
 }
+
+
 
 img {
     width: 100%;
@@ -113,7 +131,7 @@ img {
 /* contact section */
 
 #contact-section {
-    background-color: greenyellow;
+    background-color: var(--dark-gray);
     padding: 50px;
     height: 90vh;
     display: flex;
@@ -131,6 +149,7 @@ img {
     font-size: 2rem;
     padding: 2.5px;
     font-weight: 200;
+    color: var(--dark-red);
 }
 
 #contact-list {
@@ -145,9 +164,13 @@ img {
 }
 
 .social-icons {
-    color: white;
+    color: var(--primary-white);
     font-family: 'Poppins', sans-serif;
-    text-shadow: 2px 2px 5px gray;
+    text-shadow: 1px 1px 2px gray;
+}
+
+#contact-list a :hover{
+    transform: translateY(8px); 
 }
 
 @media (max-width: 1092px){
