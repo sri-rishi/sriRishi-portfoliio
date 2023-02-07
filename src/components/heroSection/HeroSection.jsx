@@ -3,6 +3,7 @@ import { useCallback } from "react";
 import Particles from "react-particles";
 import { loadFull } from "tsparticles";
 import particlesConfig from "./tsparticlesConfig";
+import { ScrollDownMouse } from "../index";
 
 const HeroSection = () => {
     const particlesInit = useCallback(async (engine)=> {
@@ -30,6 +31,7 @@ const HeroSection = () => {
                     />
                 </div>
             </div>
+            <ScrollDownMouse />
         </section>
     )
 }
