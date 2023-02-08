@@ -55,6 +55,7 @@
     color: #10dde8;
     margin-top: 2rem;
     font-size: 4rem;
+    text-align: center;
 }
 
 .wave-hand {
@@ -71,4 +72,8 @@
    50% { transform: rotate(10.0deg) }
    60% { transform: rotate( 0.0deg) } 
   100% { transform: rotate( 0.0deg) }
+}
+
+@media only screen and (max-width: 600px) {
+  
 }
