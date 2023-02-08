@@ -1,0 +1,79 @@
+.hero-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.intro {
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    color: #fff;
+    letter-spacing: 4px;
+}
+
+.highlighted-name {
+    color: #10dde8;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+      -225deg,
+      #10dde8 0%,
+      #10dde8 29%,
+      #fff 67%,
+      #fff 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 3s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+      background-position: 200% center;
+    }
+  }
+
+.name {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.typewriter-text {
+    color: #10dde8;
+    margin-top: 2rem;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.wave-hand {
+    animation: wave 2.5s infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }  
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) } 
+  100% { transform: rotate( 0.0deg) }
+}
+
+@media only screen and (max-width: 600px) {
+  
+}
