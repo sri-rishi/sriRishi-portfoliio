@@ -1,6 +1,6 @@
 #scroll-down-animation {
     position: absolute;
-    top: 90vh;
+    top: 95vh;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -40,5 +40,12 @@
     100% {
         transform: translate(-50%,45px);
         opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 31em) {
+    .mouse {
+        height: 6rem;
+        width: 3rem;
     }
 }
