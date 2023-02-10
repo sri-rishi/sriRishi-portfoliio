@@ -15,29 +15,8 @@
     justify-content: center;
     flex-direction: column;
     gap: 1rem;
-    color: #fff;
+    color: #E9E8E8;
     letter-spacing: 4px;
-}
-
-.highlighted-name {
-    color: #10dde8;
-    text-transform: uppercase;
-    background-image: linear-gradient(
-      -225deg,
-      #10dde8 0%,
-      #10dde8 29%,
-      #fff 67%,
-      #fff 100%
-    );
-    background-size: auto auto;
-    background-clip: border-box;
-    background-size: 200% auto;
-    color: #fff;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: textclip 3s linear infinite;
-    display: inline-block;
 }
 
 @keyframes textclip {
