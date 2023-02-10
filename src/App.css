@@ -1,10 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 
 *{
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
 
+button, a {
+  cursor: pointer;
+}
+
 @import "./components/index/index.css";
+
+
+@media only screen and (max-width: 50em)  {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 31em) {
+  html {
+    font-size: 10px;
+  }
+} 
+
+
