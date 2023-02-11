@@ -27,6 +27,13 @@ const Navigation = () => {
                 <span></span>
                 <span></span>
             </div>
+            
+            <div className="hamburger-menu">
+                <button className="nav-links-btn">About</button>
+                <button className="nav-links-btn">Project</button>
+                <button className="nav-links-btn">Blogs</button>
+                <button className="nav-links-btn">Contact</button>
+            </div>
         </nav>
     )
 }
