@@ -14,7 +14,7 @@ const HeroSection = () => {
             <Particles init={particlesInit} params={particlesConfig} height="100vh" width="100vw" />
             <div className="intro">
                 <p className="greetings">Hi There! <span className="wave-hand">👋🏻</span></p>
-                <h1 className="name">I'm <span className="highlighted-name">RISHI SRIVASTAVA</span></h1>
+                <p className="name">I'm RISHI SRIVASTAVA</p>
 
                 <div className="typewriter-text">
                     <Typewriter
