@@ -1,5 +1,5 @@
 import './App.css';
-import { HeroSection, Navigation } from './components/index';
+import { HeroSection, Navigation } from './components/index/index';
 
 function App() {
   return (
