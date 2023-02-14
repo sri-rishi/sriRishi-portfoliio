@@ -19,6 +19,7 @@ const Navbar = () => {
             height="fit-content"
             position="fixed"
             zIndex="50"
+            background={["black"]}
             theme={theme}
         >
             <Logo  />

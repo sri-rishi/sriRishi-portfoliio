@@ -1,9 +1,8 @@
-import { Box, Stack, useColorModeValue } from "@chakra-ui/react";
+import { Box, Stack,} from "@chakra-ui/react";
 import {ThemeSwitcher} from "../../index";
 import MenuTabs from "./MenuTabs";
 
 const MenuLinks = ({isOpen}) => {
-    // const bg = useColorModeValue([""])
     return (
         <Box
             display={{ base: isOpen ? "block" : "none", md: "block" }}
