@@ -4,7 +4,7 @@ import {FaTimes} from "react-icons/fa"
 
 const MenuToggle = ({isOpen, toggle}) => {
     return(
-        <Box fontSize="1.8rem" display={{base: "block", md: "none"}} onClick={toggle}>
+        <Box cursor="pointer" fontSize="1.8rem" display={{base: "block", md: "none"}} onClick={toggle}>
             <Icon as={isOpen ? FaTimes : BiMenuAltRight }/>
         </Box>
     )

@@ -15,6 +15,7 @@ const ThemeSwitcher = props => {
       variant="ghost"
       color="current"
       marginLeft="2"
+      padding="10px"
       onClick={toggleColorMode}
       icon={<SwitchIcon />}
       {...props}
