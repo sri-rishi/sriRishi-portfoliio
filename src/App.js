@@ -5,7 +5,7 @@ import {
   Grid,
   theme,
 } from '@chakra-ui/react';
-import { Navbar} from './components';
+import { CoverSection, Navbar} from './components';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh">
           <Navbar />
+          <CoverSection />
         </Grid>
       </Box>
     </ChakraProvider>
