@@ -7,7 +7,7 @@ const CoverSection = () => {
         <Box
             marginTop={["5rem", "9rem", "10rem", "5rem"]}
             width="100%"
-            maxHeight="90vh"
+            minHeight="100vh"
             padding={["1rem", "1rem", "1rem", "4rem"]}
         >
             <Flex
