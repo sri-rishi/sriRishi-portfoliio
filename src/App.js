@@ -4,15 +4,16 @@ import {
   Box,
   Grid,
 } from '@chakra-ui/react';
-import { CoverSection, Navbar} from './components';
+import { AboutMeSection, CoverSection, Navbar} from './components';
 
 function App() {
   return (
     <ChakraProvider>
-      <Box textAlign="center" fontSize="xl" bg="gray.900">
+      <Box textAlign="center" fontSize="xl" bg="gray.900" color="whiteAlpha.700">
         <Grid minH="100vh">
           <Navbar />
           <CoverSection />
+          <AboutMeSection />
         </Grid>
       </Box>
     </ChakraProvider>
