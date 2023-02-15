@@ -1,5 +1,4 @@
 import { Box, Stack, useColorModeValue } from "@chakra-ui/react";
-import {ThemeSwitcher} from "../../index";
 import MenuTabs from "./MenuTabs";
 
 const MenuLinks = ({isOpen}) => {
@@ -25,7 +24,6 @@ const MenuLinks = ({isOpen}) => {
                 <MenuTabs to="/about">About</MenuTabs>
                 <MenuTabs to="/project">Project</MenuTabs>
                 <MenuTabs to="/contact">Contact</MenuTabs>
-                <ThemeSwitcher display={["none", "none", "block", "block"]}/>
             </Stack>
         </Box>
     )
