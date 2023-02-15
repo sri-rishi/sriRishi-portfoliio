@@ -1,5 +1,8 @@
 import Typewriter from 'typewriter-effect';
-import {Box, Text, Heading} from "@chakra-ui/react"
+import {Box, Text, Heading, Button, Stack} from "@chakra-ui/react";
+import RishiCV from "../../../assets/files/Rishi_CV.pdf"
+import DownloadLink from 'react-download-link';
+import{ AiOutlineDownload } from "react-icons/ai";
 
 const Intro = () => {
     return (
@@ -10,7 +13,7 @@ const Intro = () => {
             flexDir="column"
             justifyContent="center"
             gap="1rem"
-            padding="2rem"
+            padding="2rem 0"
             letterSpacing="2px"
         >
             <Text 
@@ -56,6 +59,21 @@ const Intro = () => {
             >
                 I have a passion for technology
             </Text>
+            <Stack 
+               direction="row"
+               spacing="4"
+               marginTop="2rem"
+            >
+                <Button colorScheme="teal">Contact</Button>
+                <Button color="gray.900" leftIcon={<AiOutlineDownload />} colorScheme="pink" variant='solid'>
+                    <DownloadLink
+                        style={{color: "#20262E"}}
+                        label="Resume"
+                        filename="Rishi_CV.pdf"
+                        exportFile={() => RishiCV}
+                    />
+                </Button>
+            </Stack>
         </Box>
     )
 }
