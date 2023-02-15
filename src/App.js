@@ -9,7 +9,7 @@ import { CoverSection, Navbar} from './components';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider>
       <Box textAlign="center" fontSize="xl">
         <Grid minH="100vh">
           <Navbar />
