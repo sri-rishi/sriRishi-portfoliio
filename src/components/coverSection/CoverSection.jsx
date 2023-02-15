@@ -1,50 +1,26 @@
 import React from "react";
-import { Box, Flex, Heading, Text} from "@chakra-ui/react"
-import { ProfileImageBox } from "./component";
-import Typewriter from 'typewriter-effect';
-
+import { Box, Flex} from "@chakra-ui/react"
+import { Intro, ProfileImageBox } from "./component";
 
 const CoverSection = () => {
     return(
-        <Flex
+        <Box
+            marginTop={["5rem", "9rem", "10rem", "5rem"]}
             width="100%"
-            minHeight="100vh"
-            flexDirection={["column-reverse","column-reverse", "row", "row"]}  
-            alignItems="center"
-            justifyContent={["center", "center", "space-around", "space-around"]}
-            padding={["1rem", "1rem", "2rem", "2rem"]}
+            maxHeight="90vh"
+            padding={["1rem", "1rem", "1rem", "4rem"]}
         >
-            <Box 
-                textAlign="left"
-                width="50%"
+            <Flex
+                w="100%"
+                height="100%"
+                flexDirection={["column-reverse","column-reverse", "column-reverse", "row"]}  
+                alignItems="center"
+                justifyContent={["center", "center", "space-around", "space-around"]}
             >
-                <Text>
-                    Hello, I am 
-                </Text>
-                <Heading as="h1" size="2xl">
-                    Rishi Srivastava
-                </Heading>
-                <Box
-                    fontWeight="bold"
-                    fontSize="6xl"
-                    color="purple.600"
-                >
-                    <Typewriter
-                        options={{
-                            strings: [
-                            "Developer",
-                            "Frontend Developer",
-                            "Open Source Contributor",
-                            ],
-                            autoStart: true,
-                            loop: true,
-                            deleteSpeed: 50,
-                        }}
-                    />
-                </Box>
-            </Box>
-            <ProfileImageBox />
-        </Flex>
+                <Intro />
+                <ProfileImageBox />
+            </Flex>
+        </Box>
     )
 }
 
