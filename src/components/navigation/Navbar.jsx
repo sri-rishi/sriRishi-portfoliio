@@ -18,6 +18,8 @@ const Navbar = () => {
             height="fit-content"
             position="fixed"
             zIndex="50"
+            color="whiteAlpha.800"
+            bg="gray.900"
         >
             <Logo  />
             <Box display="flex" alignItems="center" gap="2rem">

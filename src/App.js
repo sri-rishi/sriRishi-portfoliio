@@ -3,16 +3,16 @@ import {
   ChakraProvider,
   Box,
   Grid,
-  theme,
 } from '@chakra-ui/react';
-import { Navbar} from './components';
+import { CoverSection, Navbar} from './components';
 
 function App() {
   return (
     <ChakraProvider>
-      <Box textAlign="center" fontSize="xl">
+      <Box textAlign="center" fontSize="xl" bg="gray.900">
         <Grid minH="100vh">
           <Navbar />
+          <CoverSection />
         </Grid>
       </Box>
     </ChakraProvider>
