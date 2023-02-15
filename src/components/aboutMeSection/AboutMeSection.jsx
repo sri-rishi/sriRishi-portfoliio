@@ -3,14 +3,15 @@ import { Box, Heading, Stack, Text, Button } from "@chakra-ui/react";
 const AboutMeSection = () => {
     return(
         <Box
-            padding="0 6rem"
-            textAlign="left"
+            padding={["0 1rem", "0 1rem", "0 6rem","0 6rem"]}
+            textAlign={["center", "center", "left", "left"]}
             minHeight="90vh"
-            width="60%"
+            width={["100%", "100%", "100%", "60%"]}
             letterSpacing="2px"
             display="flex"
             flexDir="column"
             gap="2rem"
+            alignItems={["center", "center", "flex-start", "flex-start"]}
             justifyContent="center"
         >   
             <Stack

@@ -7,13 +7,13 @@ import{ AiOutlineDownload } from "react-icons/ai";
 const Intro = () => {
     return (
         <Box 
-            textAlign="left"
+            textAlign={["center", "center", "left", "left"]}
             width={["100%", "100%", "80%", "50%"]}
             display="flex"
             flexDir="column"
+            alignItems={["center", "center", "flex-start", "flex-start"]}
             justifyContent="center"
             gap="1rem"
-            padding="2rem 0"
             letterSpacing="2px"
         >
             <Text 
