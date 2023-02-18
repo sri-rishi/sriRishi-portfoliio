@@ -8,7 +8,7 @@ const CoverSection = () => {
             marginTop={["5rem", "6rem", "10rem", "5rem"]}
             width="100%"
             minHeight="100vh"
-            padding={["1rem", "1rem", "1rem", "4rem"]}
+            padding={["1rem", "1rem", "1rem", "1rem 4rem"]}
         >
             <Flex
                 w="100%"

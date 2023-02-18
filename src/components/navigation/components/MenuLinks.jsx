@@ -23,7 +23,7 @@ const MenuLinks = ({isOpen}) => {
                 <MenuTabs to="/">Home</MenuTabs>
                 <MenuTabs to="/about">About</MenuTabs>
                 <MenuTabs to="/project">Project</MenuTabs>
-                <MenuTabs to="/blogs">BLogs</MenuTabs>
+                <MenuTabs to="/blogs">Blogs</MenuTabs>
                 <MenuTabs to="/contact">Contact</MenuTabs>
             </Stack>
         </Box>
