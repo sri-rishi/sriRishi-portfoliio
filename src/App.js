@@ -4,7 +4,7 @@ import {
   Box,
   Grid,
 } from '@chakra-ui/react';
-import { AboutMeSection, CoverSection, Navbar} from './components';
+import { AboutMeSection, CoverSection, Navbar, ProjectSection} from './components';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Navbar />
           <CoverSection />
           <AboutMeSection />
+          <ProjectSection />
         </Grid>
       </Box>
     </ChakraProvider>
