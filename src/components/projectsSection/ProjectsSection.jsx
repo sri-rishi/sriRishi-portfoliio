@@ -1,11 +1,11 @@
-import { Box, Stack, Text, Heading } from "@chakra-ui/react";
+import { Box, Stack, Text, Heading, Grid, GridItem } from "@chakra-ui/react";
 import { projects } from "./projectSectionData";
 import ProjectCard from "./ProjectCard";
 
 const ProjectSection = () => {
     return (
         <Box
-            padding={["0 1rem", "0 1rem", "0 6rem","0 6rem"]}
+            padding={["4rem 1rem", "4rem 1rem", "0 6rem","0 6rem"]}
             textAlign={["center", "center", "left", "left"]}
             minHeight="100vh"
             width={["100%", "100%", "100%", "100%"]}
@@ -31,19 +31,19 @@ const ProjectSection = () => {
                     Projects
                 </Heading>
             </Stack>
-            <Box
-                width= "100%"
-                display="flex"
-                alignItems="center"
-                justifyContent="space-between"
-                flexWrap="wrap"
+            <Grid
+                width="100%"
+                templateColumns={['repeat(1, 1fr)', 'repeat(1, 1fr)', 'repeat(2, 1fr)','repeat(3, 1fr)']} 
+                gap={6}
             >
                 {
                     projects.map((project) => (
-                        <ProjectCard key={project.id} project={project}/>
+                        <GridItem key={project.id} display="grid" w='100%' justifyContent="center" alignItems="center">
+                            <ProjectCard project={project} />
+                        </GridItem>
                     ))
                 }
-            </Box>
+            </Grid>
         </Box>
     )
 }
