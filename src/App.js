@@ -1,10 +1,10 @@
 import React from 'react';
+import { AboutMeSection, CoverSection, FindMe, Footer, Navbar, ProjectSection} from './components';
 import {
   ChakraProvider,
   Box,
   Grid,
 } from '@chakra-ui/react';
-import { AboutMeSection, CoverSection, FindMe, Footer, Navbar, ProjectSection} from './components';
 
 function App() {
   return (
