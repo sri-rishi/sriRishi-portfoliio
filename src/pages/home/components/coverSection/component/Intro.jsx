@@ -1,8 +1,8 @@
 import Typewriter from 'typewriter-effect';
 import {Box, Text, Heading, Button, Stack} from "@chakra-ui/react";
-import RishiCV from "../../../assets/files/Rishi_CV.pdf"
+import RishiCV from "../../../../../assets/files/Rishi_CV.pdf"
 import DownloadLink from 'react-download-link';
-import{ AiOutlineDownload } from "react-icons/ai";
+import { AiOutlineDownload } from "../../../../../assets/icons";
 
 const Intro = () => {
     return (

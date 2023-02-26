@@ -1,5 +1,5 @@
 import { Box, Flex, Text, IconButton } from "@chakra-ui/react";
-import {AiOutlineGithub, AiOutlineTwitter, FaLinkedinIn} from "../../assets/icons"
+import {AiOutlineGithub, AiOutlineTwitter, FaLinkedinIn} from "../../../../assets/icons"
 
 const FindMe = () => {
     return (

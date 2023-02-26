@@ -1,4 +1,4 @@
-import { ecommerceAppPreview, quizAppPreview, socialMediaPreview } from "../../assets/images/images";
+import { ecommerceAppPreview, quizAppPreview, socialMediaPreview } from "../../../../assets/images/images";
 
 export const projects = [
     {
