@@ -1,10 +1,11 @@
-import{ MyIntro }from "./components/index";
+import{ MyIntro, Skills }from "./components/index";
 
 
 const About = () => {
     return(
         <>
             <MyIntro />
+            <Skills />
         </>
     )
 }
