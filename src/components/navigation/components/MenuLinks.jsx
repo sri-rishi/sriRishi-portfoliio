@@ -1,5 +1,4 @@
-import { Box, Stack, Link} from "@chakra-ui/react";
-import { Link as RouterLink } from "react-router-dom";
+import { Box, Stack} from "@chakra-ui/react";
 import MenuTabs from "./MenuTabs";
 
 const MenuLinks = ({isOpen}) => {
@@ -21,12 +20,9 @@ const MenuLinks = ({isOpen}) => {
                 direction={["column", "row", "row", "row"]}
                 height="inherit"
             >
-                <Link as={RouterLink}  to="/">
-                    <MenuTabs>Home</MenuTabs>
-                </Link>
-                <Link as={RouterLink}  to="/about">
-                    <MenuTabs>About</MenuTabs>
-                </Link>
+                
+                <MenuTabs to="/">Home</MenuTabs>
+                <MenuTabs to="/about">About</MenuTabs>
                 <MenuTabs to="/project">Project</MenuTabs>
                 <MenuTabs to="/blogs">Blogs</MenuTabs>
                 <MenuTabs to="/contact">Contact</MenuTabs>
