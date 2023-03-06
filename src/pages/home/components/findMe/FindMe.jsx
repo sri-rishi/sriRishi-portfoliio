@@ -41,7 +41,7 @@ const FindMe = () => {
                     href="https://www.linkedin.com/in/sri-rishi/"
                     size="lg"
                     fontSize="1.4rem"
-                    colorScheme="blue"
+                    colorScheme="teal"
                     icon={<FaLinkedinIn/>}
                     _hover={{
                         transform: "translateY(8px)",
@@ -54,7 +54,7 @@ const FindMe = () => {
                     href="https://github.com/sri-rishi"
                     size="lg"
                     fontSize="1.4rem"
-                    colorScheme="blue"
+                    colorScheme="teal"
                     icon={<AiOutlineGithub />}
                     _hover={{
                         transform: " translateY(8px)",
@@ -67,7 +67,7 @@ const FindMe = () => {
                     href="https://twitter.com/sri26_rishi"
                     size="lg"
                     fontSize="1.4rem"
-                    colorScheme="blue"
+                    colorScheme="teal"
                     icon={<AiOutlineTwitter />}
                     _hover={{
                         transform: " translateY(8px)",
