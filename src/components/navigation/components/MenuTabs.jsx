@@ -1,8 +1,9 @@
-import { Link, Text } from "@chakra-ui/react";
+import { Text, Link } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 
-const MenuTabs = ({ children, isLast, to = "/", ...rest }) => {
+const MenuTabs = ({ children, isLast, to, ...rest }) => {
     return (
-      <Link href={to}>
+      <Link as={RouterLink} to={to}>
         <Text display="block" {...rest}>
           {children}
         </Text>

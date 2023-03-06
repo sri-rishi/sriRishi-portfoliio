@@ -20,6 +20,7 @@ const MenuLinks = ({isOpen}) => {
                 direction={["column", "row", "row", "row"]}
                 height="inherit"
             >
+                
                 <MenuTabs to="/">Home</MenuTabs>
                 <MenuTabs to="/about">About</MenuTabs>
                 <MenuTabs to="/project">Project</MenuTabs>

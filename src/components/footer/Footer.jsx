@@ -33,6 +33,7 @@ const Footer = () => {
                     as="a" 
                     target="_blank" 
                     href="https://www.linkedin.com/in/sri-rishi/"
+                    background="gray.900"
                     size="sm"
                     fontSize="1rem"
                     colorScheme="gray"
@@ -45,6 +46,7 @@ const Footer = () => {
                     as="a" 
                     target="_blank" 
                     href="https://github.com/sri-rishi"
+                    background="gray.900"
                     size="sm"
                     fontSize="1rem"
                     colorScheme="gray"
@@ -59,6 +61,7 @@ const Footer = () => {
                     href="https://twitter.com/sri26_rishi"
                     size="sm"
                     fontSize="1rem"
+                    background="gray.900"
                     colorScheme="gray"
                     icon={<AiOutlineTwitter />}
                     _hover={{
