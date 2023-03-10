@@ -1,13 +1,13 @@
-import{ MyIntro, Skills }from "./components/index";
-
+import { ConnectBox, MyIntro, Skills } from './components/index';
 
 const About = () => {
-    return(
-        <>
-            <MyIntro />
-            <Skills />
-        </>
-    )
-}
+  return (
+    <>
+      <MyIntro />
+      <Skills />
+      <ConnectBox />
+    </>
+  );
+};
 
 export default About;
