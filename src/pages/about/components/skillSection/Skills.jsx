@@ -6,7 +6,7 @@ const Skills = () => {
     <Box
       padding={['4rem 1rem', '4rem 1rem', '0 6rem', '0 6rem']}
       textAlign={['center', 'center', 'left', 'left']}
-      minHeight="80vh"
+      minHeight="50vh"
       width={['100%', '100%', '100%', '100%']}
       letterSpacing="2px"
       display="flex"
