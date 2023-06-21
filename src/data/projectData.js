@@ -1,4 +1,4 @@
-import { ecommerceAppPreview, quizAppPreview, socialMediaPreview } from "../../../../assets/images/images";
+import { ecommerceAppPreview, quizAppPreview, socialMediaPreview } from ".././assets/images/images";
 
 export const projects = [
     {
@@ -21,5 +21,19 @@ export const projects = [
         description: "Nakshatra Cliq is a e-commerce web app where users can buy various camera products. Buy your camera to capture moments.",
         coverImage: ecommerceAppPreview,
         liveLink: "https://nakshatra-cliq.netlify.app/",
+    },
+    {
+        id: "4",
+        projectName: "Cliq Tube",
+        description: "Cliq Tube is a video library app where users can see videos on different topics. Visit to cliqtube and watch videos you like.",
+        coverImage: ecommerceAppPreview,
+        liveLink: "https://cliq-tube.netlify.app/",
+    },
+    {
+        id: "5",
+        projectName: "Nakshatra UI",
+        description: "Nakshatra UI is a library which will help you create your UI faster. Use nakshatra UI classes and add styling to your web app.",
+        coverImage: ecommerceAppPreview,
+        liveLink: "https://nakshatra-ui.netlify.app/",
     }
 ]
